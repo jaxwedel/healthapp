@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-input {
+    width: 200px;
+    height: 35px;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.form-button {
+    width: 200px;
+    height: 35px;
+    margin: 10px 0;
+    background-color: rgb(10, 90, 57);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-result {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.normal-score {
+    background-color: #f2f2f2;
+}
+
+.high-score {
+    background-color: #ff9999;
+}
