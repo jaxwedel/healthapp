@@ -5,7 +5,15 @@ Note that due to timeconstraints in the making of this app, proper validation of
 
 ## Available Scripts
 
-In the project directory, you can run:
+To install the dependencies, run:
+
+### 'npm install' 
+
+To install nodemon, run:
+
+### 'npm i nodemon --save-dev'
+
+In the project directory (root), you can now run:
 
 ### 'npm start'
 
