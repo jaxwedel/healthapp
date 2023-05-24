@@ -74,13 +74,13 @@ const Form = () => {
 
     return (
         <Box
-            component="form"
-            m={SPACING}
-            p={SPACING}
-            noValidate
-            autoComplete="off"
-            onSubmit={handleSubmit}
-        >
+    component="form"
+    m={SPACING}
+    p={SPACING}
+    noValidate
+    autoComplete="off"
+>
+
             <Box display="flex" flexDirection="column" mb={SPACING}>
                 <Typography variant='h2' color={"primary"} pb={SPACING} >Body Temperature</Typography>
                 <CustomTextField
@@ -112,9 +112,15 @@ const Form = () => {
                 />
             </Box>
             <Box display="flex" flexDirection="row" justifyContent={'space-between'} mt={SPACING * 2}>
-                <Button variant="contained" style={{ width: "64%", padding: "12px" }} type="submit">
-                    Calculate NEWS
-                </Button>
+                <Button
+    variant="contained"
+    style={{ width: "64%", padding: "12px" }}
+    type="button"
+    onClick={handleSubmit}
+>
+    Calculate NEWS
+</Button>
+
                 <Button variant="outlined" style={{ width: "34%", padding: "12px" }} type="button" onClick={handleClear}>
                     Reset
                 </Button>
